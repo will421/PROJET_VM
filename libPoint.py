@@ -4,7 +4,7 @@ class Point_C(object):
 	'''
 	rage
 	'''
-	def __init__(self,L,l,val,mu=2):
+	def __init__(self,L,l,val,mu=1):
 		self.x=L
 		self.y=l
 		self.val=val
@@ -12,7 +12,7 @@ class Point_C(object):
  
  
 	def __repr__(self):
-		return '('+str(self.x)+';'+str(self.y)+'):'+val
+		return '('+str(self.x)+';'+str(self.y)+'):'+str(self.val)
 					
 	def __add__(self,val):
 		if type(val) is Point_C :
@@ -26,7 +26,9 @@ class Point_C(object):
 			return Point_C(self.x-val.x,self.y-val.y,self.val,self.mu)
 		else:
 			raise TypeError
-			
+	def dist(self,p2):
+		return self.distance(p2)
+	
 	def distance(self,p2):
 		p=self.__sub__(p2)
 		return m.sqrt((p.x)**2+(p.y)**2)

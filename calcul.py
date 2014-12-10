@@ -15,7 +15,7 @@ def prodDist(point1,i,listePoint):
 
 
 def poids(point1,i,listePoint):
-	j=1
+	j=0
 	numerateur = prodDist(point1,i,listePoint)
 	denominateur=0
 	while j<len(listePoint):
@@ -28,22 +28,34 @@ def shepard(point,listePoint):
 	i=0
 	somme=0;
 	while i<len(listePoint):
-		somme+=poids(point,i,listePoint)
+		somme+=poids(point,i,listePoint)*listePoint[i].val
 		i+=1
 	return somme
 
 	
 if __name__ == '__main__':
 	print "ca marche ?"
+	
+	point1 = Point_C(0,0,1)
+	print "point1:{}".format(point1)
+	point2 = Point_C(0,1,2)
+	print "point2:{}".format(point2)
+	point3 = Point_C(1,0,3)
+	print "point3:{}".format(point3)
+	point4 = Point_C(1,1,4)
+	print "point4:{}".format(point4)
+	
 	data = list()
-	data.append(Point_C(1,1,1))
-	data.append(Point_C(2,2,2))
-	data.append(Point_C(3,3,3))
-	data.append(Point_C(4,4,4))
-	data.append(Point_C(5,5,5))
-	data.append(Point_C(6,6,6))
+	data.append(point1)
+	data.append(point2)
+	data.append(point3)
+	data.append(point4)
 	
-	interest = Point_C(7,7,3)
+	print "data:{}".format(data)
 	
-	print shepard(interest,data)
+	interest = Point_C(0.5,0.5,2)
+	
+	print "interest:{}".format(interest)
+
+	print "shepard(interest,data):{}".format(shepard(interest,data))
 		
