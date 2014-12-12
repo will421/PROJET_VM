@@ -30,7 +30,7 @@ def main(argv):
 	addStations(doc,stations)
 	
 	data = loadData("data.csv")
-			
+
 	writeFile("out.kml",doc)
 
 
