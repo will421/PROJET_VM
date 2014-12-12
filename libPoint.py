@@ -26,6 +26,9 @@ class Point_C(object):
 			return Point_C(self.x-val.x,self.y-val.y,self.val,self.mu)
 		else:
 			raise TypeError
+
+			
+			
 	def dist(self,p2):
 		return self.distance(p2)
 	

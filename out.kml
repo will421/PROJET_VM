@@ -10,115 +10,11 @@
       </IconStyle>
     </Style>
     <Placemark>
-      <name>DIJON-LONGVIC-7280</name>
+      <name>TROYES-BARBEREY-7168</name>
       <Point>
         <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7280', 'DIJON-LONGVIC', '21', 'OUGES', '219', '47.267833', '5.088333']</description>
-        <coordinates>5.088333,47.267833,219</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>KERGUELEN-61998</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['61998', 'KERGUELEN', '984', 'TAAF', '29', '-49.352333', '70.243333']</description>
-        <coordinates>70.243333,-49.352333,29</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>Nom usuel-numer_sta</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['numer_sta', 'Nom usuel', 'Departement', 'Commune', 'Altitude', 'Latitude', 'Longitude']</description>
-        <coordinates>Longitude,Latitude,Altitude</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>ROCHAMBEAU-81405</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['81405', 'ROCHAMBEAU', '973', 'MATOURY', '4', '4.822333', '-52.365333']</description>
-        <coordinates>-52.365333,4.822333,4</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>ALENCON-7139</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7139', 'ALENCON', '61', 'ALENCON', '143', '48.445500', '0.110167']</description>
-        <coordinates>0.110167,48.445500,143</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>LAMENTIN-AERO-78925</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['78925', 'LAMENTIN-AERO', '972', 'LE LAMENTIN', '3', '14.595333', '-60.995667']</description>
-        <coordinates>-60.995667,14.595333,3</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>EUROPA-61972</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['61972', 'EUROPA', '984', 'ILES-EPARSES', '6', '-22.344167', '40.340667']</description>
-        <coordinates>40.340667,-22.344167,6</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>NANTES-BOUGUENAIS-7222</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7222', 'NANTES-BOUGUENAIS', '44', 'BOUGUENAIS', '26', '47.150000', '-1.608833']</description>
-        <coordinates>-1.608833,47.150000,26</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>PLOUMANAC'H-7117</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7117', "PLOUMANAC'H", '22', 'PERROS-GUIREC', '55', '48.825833', '-3.473167']</description>
-        <coordinates>-3.473167,48.825833,55</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>EMBRUN-7591</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7591', 'EMBRUN', '5', 'EMBRUN', '871', '44.565667', '6.502333']</description>
-        <coordinates>6.502333,44.565667,871</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>TROMELIN-61976</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['61976', 'TROMELIN', '984', 'ILES-EPARSES', '7', '-15.887667', '54.520667']</description>
-        <coordinates>54.520667,-15.887667,7</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>ROUEN-BOOS-7037</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7037', 'ROUEN-BOOS', '76', 'BOOS', '151', '49.383000', '1.181667']</description>
-        <coordinates>1.181667,49.383000,151</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>NOUVELLE AMSTERDAM-61996</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['61996', 'NOUVELLE AMSTERDAM', '984', 'TAAF', '27', '-37.795167', '77.569167']</description>
-        <coordinates>77.569167,-37.795167,27</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>RENNES-ST JACQUES-7130</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7130', 'RENNES-ST JACQUES', '35', 'SAINT-JACQUES-DE-LA-LANDE', '36', '48.068833', '-1.734000']</description>
-        <coordinates>-1.734000,48.068833,36</coordinates>
+        <description>['7168', 'TROYES-BARBEREY', '10', 'BARBEREY-SAINT-SULPICE', '112', '48.324667', '4.020000']</description>
+        <coordinates>4.020000,48.324667,112</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -130,99 +26,19 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>LILLE-LESQUIN-7015</name>
+      <name>BALE-MULHOUSE-7299</name>
       <Point>
         <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7015', 'LILLE-LESQUIN', '59', 'LESQUIN', '47', '50.570000', '3.097500']</description>
-        <coordinates>3.097500,50.570000,47</coordinates>
+        <description>['7299', 'BALE-MULHOUSE', '68', 'SAINT-LOUIS', '263', '47.614333', '7.510000']</description>
+        <coordinates>7.510000,47.614333,263</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <name>LE RAIZET AERO-78897</name>
+      <name>EMBRUN-7591</name>
       <Point>
         <altitudeMode>relativeToGround</altitudeMode>
-        <description>['78897', 'LE RAIZET AERO', '971', 'LES ABYMES', '11', '16.264000', '-61.516333']</description>
-        <coordinates>-61.516333,16.264000,11</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>DUMONT D'URVILLE-89642</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['89642', "DUMONT D'URVILLE", '984', 'TAAF', '43', '-66.663167', '140.001000']</description>
-        <coordinates>140.001000,-66.663167,43</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>MONTELIMAR-7577</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7577', 'MONTELIMAR', '26', 'MONTELIMAR', '73', '44.581167', '4.733000']</description>
-        <coordinates>4.733000,44.581167,73</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>TOURS-7240</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7240', 'TOURS', '37', 'PARCAY-MESLAY', '108', '47.444500', '0.727333']</description>
-        <coordinates>0.727333,47.444500,108</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>LA DESIRADE METEO-78890</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['78890', 'LA DESIRADE METEO', '971', 'LA DESIRADE', '27', '16.335000', '-61.004000']</description>
-        <coordinates>-61.004000,16.335000,27</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>TOULOUSE-BLAGNAC-7630</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7630', 'TOULOUSE-BLAGNAC', '31', 'BLAGNAC', '151', '43.621000', '1.378833']</description>
-        <coordinates>1.378833,43.621000,151</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>BELLE ILE-LE TALUT-7207</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7207', 'BELLE ILE-LE TALUT', '56', 'BANGOR', '34', '47.294333', '-3.218333']</description>
-        <coordinates>-3.218333,47.294333,34</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>ST-BARTHELEMY METEO-78894</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['78894', 'ST-BARTHELEMY METEO', '971', 'SAINT-BARTHELEMY', '44', '17.901500', '-62.852167']</description>
-        <coordinates>-62.852167,17.901500,44</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>REIMS-PRUNAY-7072</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7072', 'REIMS-PRUNAY', '51', 'PRUNAY', '95', '49.209667', '4.155333']</description>
-        <coordinates>4.155333,49.209667,95</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>NICE-7690</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7690', 'NICE', '6', 'NICE', '2', '43.648833', '7.209000']</description>
-        <coordinates>7.209000,43.648833,2</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>LIMOGES-BELLEGARDE-7434</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7434', 'LIMOGES-BELLEGARDE', '87', 'LIMOGES', '402', '45.861167', '1.175000']</description>
-        <coordinates>1.175000,45.861167,402</coordinates>
+        <description>['7591', 'EMBRUN', '5', 'EMBRUN', '871', '44.565667', '6.502333']</description>
+        <coordinates>6.502333,44.565667,871</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -234,94 +50,6 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>TARBES-OSSUN-7621</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7621', 'TARBES-OSSUN', '65', 'OSSUN', '360', '43.188000', '0.000000']</description>
-        <coordinates>0.000000,43.188000,360</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>BORDEAUX-MERIGNAC-7510</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7510', 'BORDEAUX-MERIGNAC', '33', 'MERIGNAC', '47', '44.830667', '-0.691333']</description>
-        <coordinates>-0.691333,44.830667,47</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>GOURDON-7535</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7535', 'GOURDON', '46', 'GOURDON', '260', '44.745000', '1.396667']</description>
-        <coordinates>1.396667,44.745000,260</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>LE PUY-LOUDES-7471</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7471', 'LE PUY-LOUDES', '43', 'CHASPUZAC', '833', '45.074500', '3.764000']</description>
-        <coordinates>3.764000,45.074500,833</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>STRASBOURG-ENTZHEIM-7190</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7190', 'STRASBOURG-ENTZHEIM', '67', 'ENTZHEIM', '150', '48.549500', '7.640333']</description>
-        <coordinates>7.640333,48.549500,150</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>AJACCIO-7761</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7761', 'AJACCIO', '20', 'AJACCIO', '5', '41.918000', '8.792667']</description>
-        <coordinates>8.792667,41.918000,5</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>SAINT LAURENT-81401</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['81401', 'SAINT LAURENT', '973', 'SAINT-LAURENT-DU-MARONI', '5', '5.485500', '-54.031667']</description>
-        <coordinates>-54.031667,5.485500,5</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>ST-PIERRE-71805</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['71805', 'ST-PIERRE', '975', 'SAINT-PIERRE', '21', '46.766333', '-56.179167']</description>
-        <coordinates>-56.179167,46.766333,21</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>JUAN DE NOVA-61970</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['61970', 'JUAN DE NOVA', '984', 'ILES-EPARSES', '9', '-17.054667', '42.712000']</description>
-        <coordinates>42.712000,-17.054667,9</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>LYON-ST EXUPERY-7481</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7481', 'LYON-ST EXUPERY', '69', 'COLOMBIER-SAUGNIEU', '235', '45.726500', '5.077833']</description>
-        <coordinates>5.077833,45.726500,235</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>BALE-MULHOUSE-7299</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7299', 'BALE-MULHOUSE', '68', 'SAINT-LOUIS', '263', '47.614333', '7.510000']</description>
-        <coordinates>7.510000,47.614333,263</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
       <name>MARIPASOULA-81415</name>
       <Point>
         <altitudeMode>relativeToGround</altitudeMode>
@@ -330,171 +58,11 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>POITIERS-BIARD-7335</name>
+      <name>LIMOGES-BELLEGARDE-7434</name>
       <Point>
         <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7335', 'POITIERS-BIARD', '86', 'BIARD', '123', '46.593833', '0.314333']</description>
-        <coordinates>0.314333,46.593833,123</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>MARIGNANE-7650</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7650', 'MARIGNANE', '13', 'MARIGNANE', '9', '43.437667', '5.216000']</description>
-        <coordinates>5.216000,43.437667,9</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>MONTPELLIER-7643</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7643', 'MONTPELLIER', '34', 'MAUGUIO', '2', '43.577000', '3.963167']</description>
-        <coordinates>3.963167,43.577000,2</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>ST GIRONS-7627</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7627', 'ST GIRONS', '9', 'LORP-SENTARAILLE', '414', '43.005333', '1.106833']</description>
-        <coordinates>1.106833,43.005333,414</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>PTE DE LA HAGUE-7020</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7020', 'PTE DE LA HAGUE', '50', 'AUDERVILLE', '6', '49.725167', '-1.939833']</description>
-        <coordinates>-1.939833,49.725167,6</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>CAEN-CARPIQUET-7027</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7027', 'CAEN-CARPIQUET', '14', 'CARPIQUET', '67', '49.180000', '-0.456167']</description>
-        <coordinates>-0.456167,49.180000,67</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>CAP CEPET-7661</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7661', 'CAP CEPET', '83', 'SAINT-MANDRIER-SUR-MER', '115', '43.079333', '5.940833']</description>
-        <coordinates>5.940833,43.079333,115</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>ABBEVILLE-7005</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7005', 'ABBEVILLE', '80', 'ABBEVILLE', '70', '50.135833', '1.834667']</description>
-        <coordinates>1.834667,50.135833,70</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>GILLOT-AEROPORT-61980</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['61980', 'GILLOT-AEROPORT', '974', 'SAINTE-MARIE', '8', '-20.892500', '55.528667']</description>
-        <coordinates>55.528667,-20.892500,8</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>GLORIEUSES-61968</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['61968', 'GLORIEUSES', '984', 'ILES-EPARSES', '3', '-11.582667', '47.289667']</description>
-        <coordinates>47.289667,-11.582667,3</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>BOURGES-7255</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7255', 'BOURGES', '18', 'BOURGES', '161', '47.059167', '2.359833']</description>
-        <coordinates>2.359833,47.059167,161</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>TROYES-BARBEREY-7168</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7168', 'TROYES-BARBEREY', '10', 'BARBEREY-SAINT-SULPICE', '112', '48.324667', '4.020000']</description>
-        <coordinates>4.020000,48.324667,112</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>BASTIA-7790</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7790', 'BASTIA', '20', 'LUCCIANA', '10', '42.540667', '9.485167']</description>
-        <coordinates>9.485167,42.540667,10</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>ORLY-7149</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7149', 'ORLY', '91', 'ATHIS-MONS', '89', '48.716833', '2.384333']</description>
-        <coordinates>2.384333,48.716833,89</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>MONT-DE-MARSAN-7607</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7607', 'MONT-DE-MARSAN', '40', 'MONT-DE-MARSAN', '59', '43.909833', '-0.500167']</description>
-        <coordinates>-0.500167,43.909833,59</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>PTE DE CHASSIRON-7314</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7314', 'PTE DE CHASSIRON', '17', "SAINT-DENIS-D'OLERON", '11', '46.046833', '-1.411667']</description>
-        <coordinates>-1.411667,46.046833,11</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>PAMANDZI-67005</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['67005', 'PAMANDZI', '985', 'DZAOUDZI', '7', '-12.805500', '45.282833']</description>
-        <coordinates>45.282833,-12.805500,7</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>TRINITE-CARAVEL-78922</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['78922', 'TRINITE-CARAVEL', '972', 'LA TRINITE', '26', '14.774500', '-60.875333']</description>
-        <coordinates>-60.875333,14.774500,26</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>BREST-GUIPAVAS-7110</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7110', 'BREST-GUIPAVAS', '29', 'GUIPAVAS', '94', '48.444167', '-4.412000']</description>
-        <coordinates>-4.412000,48.444167,94</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>PERPIGNAN-7747</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['7747', 'PERPIGNAN', '66', 'PERPIGNAN', '42', '42.737167', '2.872833']</description>
-        <coordinates>2.872833,42.737167,42</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>CROZET-61997</name>
-      <Point>
-        <altitudeMode>relativeToGround</altitudeMode>
-        <description>['61997', 'CROZET', '984', 'TAAF', '146', '-46.432500', '51.856667']</description>
-        <coordinates>51.856667,-46.432500,146</coordinates>
+        <description>['7434', 'LIMOGES-BELLEGARDE', '87', 'LIMOGES', '402', '45.861167', '1.175000']</description>
+        <coordinates>1.175000,45.861167,402</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -506,11 +74,435 @@
       </Point>
     </Placemark>
     <Placemark>
+      <name>CAP CEPET-7661</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7661', 'CAP CEPET', '83', 'SAINT-MANDRIER-SUR-MER', '115', '43.079333', '5.940833']</description>
+        <coordinates>5.940833,43.079333,115</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GLORIEUSES-61968</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['61968', 'GLORIEUSES', '984', 'ILES-EPARSES', '3', '-11.582667', '47.289667']</description>
+        <coordinates>47.289667,-11.582667,3</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PTE DE CHASSIRON-7314</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7314', 'PTE DE CHASSIRON', '17', "SAINT-DENIS-D'OLERON", '11', '46.046833', '-1.411667']</description>
+        <coordinates>-1.411667,46.046833,11</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>EUROPA-61972</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['61972', 'EUROPA', '984', 'ILES-EPARSES', '6', '-22.344167', '40.340667']</description>
+        <coordinates>40.340667,-22.344167,6</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ST-BARTHELEMY METEO-78894</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['78894', 'ST-BARTHELEMY METEO', '971', 'SAINT-BARTHELEMY', '44', '17.901500', '-62.852167']</description>
+        <coordinates>-62.852167,17.901500,44</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>STRASBOURG-ENTZHEIM-7190</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7190', 'STRASBOURG-ENTZHEIM', '67', 'ENTZHEIM', '150', '48.549500', '7.640333']</description>
+        <coordinates>7.640333,48.549500,150</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TROMELIN-61976</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['61976', 'TROMELIN', '984', 'ILES-EPARSES', '7', '-15.887667', '54.520667']</description>
+        <coordinates>54.520667,-15.887667,7</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MONTELIMAR-7577</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7577', 'MONTELIMAR', '26', 'MONTELIMAR', '73', '44.581167', '4.733000']</description>
+        <coordinates>4.733000,44.581167,73</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ROCHAMBEAU-81405</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['81405', 'ROCHAMBEAU', '973', 'MATOURY', '4', '4.822333', '-52.365333']</description>
+        <coordinates>-52.365333,4.822333,4</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GILLOT-AEROPORT-61980</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['61980', 'GILLOT-AEROPORT', '974', 'SAINTE-MARIE', '8', '-20.892500', '55.528667']</description>
+        <coordinates>55.528667,-20.892500,8</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>REIMS-PRUNAY-7072</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7072', 'REIMS-PRUNAY', '51', 'PRUNAY', '95', '49.209667', '4.155333']</description>
+        <coordinates>4.155333,49.209667,95</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
       <name>CLERMONT-FD-7460</name>
       <Point>
         <altitudeMode>relativeToGround</altitudeMode>
         <description>['7460', 'CLERMONT-FD', '63', 'CLERMONT-FERRAND', '331', '45.786833', '3.149333']</description>
         <coordinates>3.149333,45.786833,331</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BELLE ILE-LE TALUT-7207</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7207', 'BELLE ILE-LE TALUT', '56', 'BANGOR', '34', '47.294333', '-3.218333']</description>
+        <coordinates>-3.218333,47.294333,34</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LA DESIRADE METEO-78890</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['78890', 'LA DESIRADE METEO', '971', 'LA DESIRADE', '27', '16.335000', '-61.004000']</description>
+        <coordinates>-61.004000,16.335000,27</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NOUVELLE AMSTERDAM-61996</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['61996', 'NOUVELLE AMSTERDAM', '984', 'TAAF', '27', '-37.795167', '77.569167']</description>
+        <coordinates>77.569167,-37.795167,27</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CROZET-61997</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['61997', 'CROZET', '984', 'TAAF', '146', '-46.432500', '51.856667']</description>
+        <coordinates>51.856667,-46.432500,146</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KERGUELEN-61998</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['61998', 'KERGUELEN', '984', 'TAAF', '29', '-49.352333', '70.243333']</description>
+        <coordinates>70.243333,-49.352333,29</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LE PUY-LOUDES-7471</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7471', 'LE PUY-LOUDES', '43', 'CHASPUZAC', '833', '45.074500', '3.764000']</description>
+        <coordinates>3.764000,45.074500,833</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LE RAIZET AERO-78897</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['78897', 'LE RAIZET AERO', '971', 'LES ABYMES', '11', '16.264000', '-61.516333']</description>
+        <coordinates>-61.516333,16.264000,11</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>JUAN DE NOVA-61970</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['61970', 'JUAN DE NOVA', '984', 'ILES-EPARSES', '9', '-17.054667', '42.712000']</description>
+        <coordinates>42.712000,-17.054667,9</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NANTES-BOUGUENAIS-7222</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7222', 'NANTES-BOUGUENAIS', '44', 'BOUGUENAIS', '26', '47.150000', '-1.608833']</description>
+        <coordinates>-1.608833,47.150000,26</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MONT-DE-MARSAN-7607</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7607', 'MONT-DE-MARSAN', '40', 'MONT-DE-MARSAN', '59', '43.909833', '-0.500167']</description>
+        <coordinates>-0.500167,43.909833,59</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LYON-ST EXUPERY-7481</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7481', 'LYON-ST EXUPERY', '69', 'COLOMBIER-SAUGNIEU', '235', '45.726500', '5.077833']</description>
+        <coordinates>5.077833,45.726500,235</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>NICE-7690</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7690', 'NICE', '6', 'NICE', '2', '43.648833', '7.209000']</description>
+        <coordinates>7.209000,43.648833,2</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PERPIGNAN-7747</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7747', 'PERPIGNAN', '66', 'PERPIGNAN', '42', '42.737167', '2.872833']</description>
+        <coordinates>2.872833,42.737167,42</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TARBES-OSSUN-7621</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7621', 'TARBES-OSSUN', '65', 'OSSUN', '360', '43.188000', '0.000000']</description>
+        <coordinates>0.000000,43.188000,360</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BREST-GUIPAVAS-7110</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7110', 'BREST-GUIPAVAS', '29', 'GUIPAVAS', '94', '48.444167', '-4.412000']</description>
+        <coordinates>-4.412000,48.444167,94</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DUMONT D'URVILLE-89642</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['89642', "DUMONT D'URVILLE", '984', 'TAAF', '43', '-66.663167', '140.001000']</description>
+        <coordinates>140.001000,-66.663167,43</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TOURS-7240</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7240', 'TOURS', '37', 'PARCAY-MESLAY', '108', '47.444500', '0.727333']</description>
+        <coordinates>0.727333,47.444500,108</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TRINITE-CARAVEL-78922</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['78922', 'TRINITE-CARAVEL', '972', 'LA TRINITE', '26', '14.774500', '-60.875333']</description>
+        <coordinates>-60.875333,14.774500,26</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ST GIRONS-7627</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7627', 'ST GIRONS', '9', 'LORP-SENTARAILLE', '414', '43.005333', '1.106833']</description>
+        <coordinates>1.106833,43.005333,414</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PLOUMANAC'H-7117</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7117', "PLOUMANAC'H", '22', 'PERROS-GUIREC', '55', '48.825833', '-3.473167']</description>
+        <coordinates>-3.473167,48.825833,55</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>TOULOUSE-BLAGNAC-7630</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7630', 'TOULOUSE-BLAGNAC', '31', 'BLAGNAC', '151', '43.621000', '1.378833']</description>
+        <coordinates>1.378833,43.621000,151</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LAMENTIN-AERO-78925</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['78925', 'LAMENTIN-AERO', '972', 'LE LAMENTIN', '3', '14.595333', '-60.995667']</description>
+        <coordinates>-60.995667,14.595333,3</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>AJACCIO-7761</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7761', 'AJACCIO', '20', 'AJACCIO', '5', '41.918000', '8.792667']</description>
+        <coordinates>8.792667,41.918000,5</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BORDEAUX-MERIGNAC-7510</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7510', 'BORDEAUX-MERIGNAC', '33', 'MERIGNAC', '47', '44.830667', '-0.691333']</description>
+        <coordinates>-0.691333,44.830667,47</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BOURGES-7255</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7255', 'BOURGES', '18', 'BOURGES', '161', '47.059167', '2.359833']</description>
+        <coordinates>2.359833,47.059167,161</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PAMANDZI-67005</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['67005', 'PAMANDZI', '985', 'DZAOUDZI', '7', '-12.805500', '45.282833']</description>
+        <coordinates>45.282833,-12.805500,7</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RENNES-ST JACQUES-7130</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7130', 'RENNES-ST JACQUES', '35', 'SAINT-JACQUES-DE-LA-LANDE', '36', '48.068833', '-1.734000']</description>
+        <coordinates>-1.734000,48.068833,36</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MONTPELLIER-7643</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7643', 'MONTPELLIER', '34', 'MAUGUIO', '2', '43.577000', '3.963167']</description>
+        <coordinates>3.963167,43.577000,2</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ABBEVILLE-7005</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7005', 'ABBEVILLE', '80', 'ABBEVILLE', '70', '50.135833', '1.834667']</description>
+        <coordinates>1.834667,50.135833,70</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>MARIGNANE-7650</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7650', 'MARIGNANE', '13', 'MARIGNANE', '9', '43.437667', '5.216000']</description>
+        <coordinates>5.216000,43.437667,9</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ALENCON-7139</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7139', 'ALENCON', '61', 'ALENCON', '143', '48.445500', '0.110167']</description>
+        <coordinates>0.110167,48.445500,143</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>LILLE-LESQUIN-7015</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7015', 'LILLE-LESQUIN', '59', 'LESQUIN', '47', '50.570000', '3.097500']</description>
+        <coordinates>3.097500,50.570000,47</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>POITIERS-BIARD-7335</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7335', 'POITIERS-BIARD', '86', 'BIARD', '123', '46.593833', '0.314333']</description>
+        <coordinates>0.314333,46.593833,123</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>PTE DE LA HAGUE-7020</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7020', 'PTE DE LA HAGUE', '50', 'AUDERVILLE', '6', '49.725167', '-1.939833']</description>
+        <coordinates>-1.939833,49.725167,6</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ORLY-7149</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7149', 'ORLY', '91', 'ATHIS-MONS', '89', '48.716833', '2.384333']</description>
+        <coordinates>2.384333,48.716833,89</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BASTIA-7790</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7790', 'BASTIA', '20', 'LUCCIANA', '10', '42.540667', '9.485167']</description>
+        <coordinates>9.485167,42.540667,10</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>GOURDON-7535</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7535', 'GOURDON', '46', 'GOURDON', '260', '44.745000', '1.396667']</description>
+        <coordinates>1.396667,44.745000,260</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>DIJON-LONGVIC-7280</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7280', 'DIJON-LONGVIC', '21', 'OUGES', '219', '47.267833', '5.088333']</description>
+        <coordinates>5.088333,47.267833,219</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ST-PIERRE-71805</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['71805', 'ST-PIERRE', '975', 'SAINT-PIERRE', '21', '46.766333', '-56.179167']</description>
+        <coordinates>-56.179167,46.766333,21</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CAEN-CARPIQUET-7027</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7027', 'CAEN-CARPIQUET', '14', 'CARPIQUET', '67', '49.180000', '-0.456167']</description>
+        <coordinates>-0.456167,49.180000,67</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SAINT LAURENT-81401</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['81401', 'SAINT LAURENT', '973', 'SAINT-LAURENT-DU-MARONI', '5', '5.485500', '-54.031667']</description>
+        <coordinates>-54.031667,5.485500,5</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ROUEN-BOOS-7037</name>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <description>['7037', 'ROUEN-BOOS', '76', 'BOOS', '151', '49.383000', '1.181667']</description>
+        <coordinates>1.181667,49.383000,151</coordinates>
       </Point>
     </Placemark>
   </Document>
