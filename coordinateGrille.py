@@ -9,6 +9,15 @@ nbDivV = 1
 nbDivH = nbDivV
 
 
+def pretty_print(grille):
+	s = [[str(e) for e in row] for row in grille]
+	lens = [max(map(len, col)) for col in zip(*s)]
+	fmt = '\t'.join('{{:{}}}'.format(x) for x in lens)
+	table = [fmt.format(*row) for row in s]
+	print '\n'.join(table)
+
+
+
 def main(argv):
 	pass
 
