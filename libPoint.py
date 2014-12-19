@@ -2,9 +2,9 @@ from __future__ import division
 import math as m
 class Point_C(object):
 	'''
-	rage
+	love
 	'''
-	def __init__(self,L,l,val,mu=1):
+	def __init__(self,L,l,val=-1,mu=1):
 		self.x=L
 		self.y=l
 		self.val=val

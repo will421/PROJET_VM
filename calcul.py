@@ -34,7 +34,7 @@ def shepard(point,listePoint):
 
 	
 if __name__ == '__main__':
-	print "ca marche ?"
+
 	
 	point1 = Point_C(0,0,1)
 	print "point1:{}".format(point1)
