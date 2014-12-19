@@ -8,8 +8,8 @@ import pickle
 
 coordNW =Point_C(51.0,-5.0)
 coordNE =Point_C(51.0,10.0)
-coordSW =Point_C(40.0,-5.0)
-coordSE =Point_C(40.0,10.0)
+coordSW =Point_C(41.0,-5.0)
+coordSE =Point_C(41.0,10.0)
 
 
 
@@ -26,7 +26,7 @@ def main(argv):
 	generateGrille(2)
 
 def putInCache(nbDiv,grille,idCache):
-	if nbDiv<4:
+	if nbDiv<6:
 		return
 	with open("cache/grille-{}-index{}".format(nbDiv,idCache),"wb") as f:
 		pickle.dump(grille,f)

@@ -4,7 +4,7 @@ class Point_C(object):
 	'''
 	love
 	'''
-	def __init__(self,L,l,val=-1,mu=1):
+	def __init__(self,L,l,val=-1,mu=2):
 		self.x=L
 		self.y=l
 		self.val=val

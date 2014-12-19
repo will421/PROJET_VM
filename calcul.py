@@ -26,6 +26,7 @@ def poids(point1,i,listePoint):
 	
 def shepard(point,listePoint):
 	listePoint= [pointIt for pointIt in listePoint if pointIt.val!=None]
+	#listePoint = listePoint[:10]
 	i=0
 	somme=0;
 	while i<len(listePoint):

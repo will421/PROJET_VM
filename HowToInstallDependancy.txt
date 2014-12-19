@@ -2,4 +2,6 @@ You can use
 
 pip install -r requirement.txt
 or
-python setup.py develop
+python.exe setup.py install
+or
+python.exe setup.py develop

@@ -8,5 +8,6 @@ setup(name='projet_VM',
       install_requires=[
           'lxml',
 		  'pykml',
+			'numpy'
       ],
       zip_safe=False)

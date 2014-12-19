@@ -4,6 +4,7 @@ import coordinateGrille as Grille
 from libPoint import *
 import dataparser as Parser
 import kmlwriter as Writer
+import numpy as np
 
 def processAmbiguous(square,value):
 	valMid = (square[0][0].val+square[0][1].val+square[1][0].val+square[1][1].val)/4
@@ -43,7 +44,7 @@ def processCoeff(square,edge,value):
 		
 		
 	alpha = (value-p1.val)/(p2.val-p1.val)
-	print "Alpha:{}".format(alpha)
+	#print "Alpha:{}".format(alpha)
 	return (1-alpha)*p1+alpha*p2
 
 def processSquare(square,value):
@@ -107,11 +108,13 @@ def generate():
 	return grille
 def main(argv):
 	
-	index = 10
+	index = 2
 	nbDiv = 5
+	nbIso = 5
 	if len(argv)>0:
 		nbDiv = int(argv[0])
-	
+	if len(argv)>1:
+		index = int(argv[1])
 	
 	stations = Parser.loadStations("stations.csv")
 	lPoints = Parser.loadPoints("data.csv",index,stations)
@@ -121,8 +124,13 @@ def main(argv):
 	
 	grille = Grille.generateGrille(nbDiv,lPoints,index)
 	Writer.addGrille(doc,grille)
-	
-	values = [101504.400,101504.500]
+	#import pdb; pdb.set_trace()
+	minGrille = min([min(col,key=(lambda p: p.val)).val for col in grille])
+	maxGrille = max([max(col,key=(lambda p: p.val)).val for col in grille])
+	print "minG :{}, maxG :{}".format(minGrille,maxGrille)
+	values = np.linspace(minGrille,maxGrille,10)
+	#values = [101504.400,101504.500]
+	#values = [101500,101499]
 	for value in values:
 		
 		nbSquare = len(grille)-1;
