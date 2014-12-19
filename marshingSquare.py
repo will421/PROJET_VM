@@ -5,6 +5,7 @@ from libPoint import *
 import dataparser as Parser
 import kmlwriter as Writer
 import numpy as np
+from math import *
 
 def processAmbiguous(square,value):
 	valMid = (square[0][0].val+square[0][1].val+square[1][0].val+square[1][1].val)/4
@@ -110,7 +111,7 @@ def main(argv):
 	
 	index = 2
 	nbDiv = 5
-	nbIso = 5
+	nbIso = 20
 	if len(argv)>0:
 		nbDiv = int(argv[0])
 	if len(argv)>1:
@@ -120,18 +121,19 @@ def main(argv):
 	lPoints = Parser.loadPoints("data.csv",index,stations)
 
 	doc = Writer.initDocument()
-	Writer.addStations(doc,stations)
+	#Writer.addStations(doc,stations)
 	
 	grille = Grille.generateGrille(nbDiv,lPoints,index)
-	Writer.addGrille(doc,grille)
+	#Writer.addGrille(doc,grille)
 	#import pdb; pdb.set_trace()
 	minGrille = min([min(col,key=(lambda p: p.val)).val for col in grille])
 	maxGrille = max([max(col,key=(lambda p: p.val)).val for col in grille])
 	print "minG :{}, maxG :{}".format(minGrille,maxGrille)
-	values = np.linspace(minGrille,maxGrille,10)
-	#values = [101504.400,101504.500]
-	#values = [101500,101499]
-	for value in values:
+	values = np.linspace(minGrille,maxGrille,nbIso)
+	colors = ["0012ff","0096ff","00d8ff","00fff6","00ffcc","00ff90","00ff48","2aff00","72ff00","c6ff00","fff600","ffea00","ffb400","ff8a00","ff6000","ff3000"]
+	colorIndexes = np.linspace(0,len(colors)-1,nbIso)
+	
+	for c,value in enumerate(values):
 		
 		nbSquare = len(grille)-1;
 		res = []
@@ -145,11 +147,28 @@ def main(argv):
 				square[1][0] = grille[i+1][j]
 				res = res + processSquare(square,value)
 		print "NbSegment:{}".format(len(res))
-		Writer.addIso(doc,res)
+		#import pdb; pdb.set_trace()
+		try:
+			colorStr = "ff"+colors[int(round(colorIndexes[len(values)-1-c]))]
+		except :
+			import pdb; pdb.set_trace()
+		print colorStr
 		
+		Writer.addIso(doc,res,colorStr)
 		
+	Writer.addStations2(doc,lPoints)
 	Writer.writeFile("out.kml",doc)
-
+	
+	
+	import colorsys
+	N = 5
+	HSV_tuples = [(x*1.0/N, 0.5, 0.5) for x in range(N)]
+	RGB_tuples = map(lambda x: colorsys.hsv_to_rgb(*x), HSV_tuples)
+	print RGB_tuples
+	'#%02x%02x%02x' % (0, 128, 64)
+			
+				
+			
 
 if __name__ == '__main__':
 	main(sys.argv[1:])

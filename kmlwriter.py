@@ -23,7 +23,7 @@ def initDocument():
 			KML.Style(
 				KML.LineStyle(
 					KML.color("ff0000ff"),
-					KML.width(3)
+					KML.width(1)
 				),
 				KML.PolyStyle(
 					KML.color("ffff0000")
@@ -37,7 +37,8 @@ def initDocument():
 def addStations(doc,stations):
 	for value in stations.itervalues():
 		pm1 = KML.Placemark(
-			KML.name(value[1]+"-"+value[0]),
+			#KML.name(value[]+"-"+value[0]),
+			KML.name(value[2]),
 			KML.Point(
 				KML.altitudeMode("relativeToGround"),
 				KML.description(str(value)),
@@ -50,12 +51,36 @@ def addStations(doc,stations):
 			),
 		)
 		doc.Document.append(pm1)
+		
+def addStations2(doc,points):
+	for value in points:
+		pm1 = KML.Placemark(
+			#KML.name(value[]+"-"+value[0]),
+			KML.name(value.val),
+			KML.Point(
+				KML.altitudeMode("relativeToGround"),
+				KML.description(str(value)),
+				KML.coordinates("{},{},{}".format(
+					value.x,
+					value.y,
+					1000,
+				)
+				),
+			),
+		)
+		doc.Document.append(pm1)
 
-def addSegment(doc,seg):
+def addSegment(doc,seg,colorStr):
 	pm1 = KML.Placemark(
 		KML.name("OneSegment"),
 		KML.visibility(1),
-		KML.styleUrl("#redLineBluePoly"),
+		#KML.styleUrl("#redLineBluePoly"),
+		KML.Style(
+			KML.LineStyle(
+				KML.color(colorStr),
+				KML.width(3)
+			)
+		),
 		KML.LineString(
 			KML.extrude(1),
 			KML.tesselate(0),
@@ -83,9 +108,9 @@ def addLine(doc,line):
 	doc.Document.append(pm1)
 
 
-def addIso(doc,line):
+def addIso(doc,line,colorStr):
 	for seg in line:
-		addSegment(doc,seg)
+		addSegment(doc,seg,colorStr)
 		
 def addGrille(doc,grille):
 	for i in range(0,len(grille)):

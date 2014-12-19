@@ -23,10 +23,11 @@ def pretty_print(grille):
 
 
 def main(argv):
-	generateGrille(2)
+	#generateGrille(2)
+	pass
 
 def putInCache(nbDiv,grille,idCache):
-	if nbDiv<6:
+	if nbDiv<2:
 		return
 	with open("cache/grille-{}-index{}".format(nbDiv,idCache),"wb") as f:
 		pickle.dump(grille,f)
@@ -70,11 +71,12 @@ def completeGrille(grille,arrayLong,arrayLat,nbDiv,listePoint):
 	for i in range (0,nbDiv+2):
 		for j in range(0,nbDiv+2):
 			if listePoint==None :
-				grille[j][i] = Point_C(arrayLat[i],arrayLong[j])
+				grille[j][i] = Point_C(arrayLong[i],arrayLat[j])
 			else :
-				p = Point_C(arrayLat[i],arrayLong[j])
+				p = Point_C(arrayLong[i],arrayLat[j])
 				#import pdb; pdb.set_trace()
 				p.val = shepard(p,listePoint)
+				#import pdb; pdb.set_trace()
 				grille[j][i] = p
 			k += 1
 			print '{:.2f}% of generation'.format((k/nbPoint)*100)

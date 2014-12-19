@@ -1,5 +1,7 @@
 from __future__ import division
 import math as m
+import random
+
 class Point_C(object):
 	'''
 	love
@@ -8,7 +10,7 @@ class Point_C(object):
 		self.x=L
 		self.y=l
 		self.val=val
-		self.mu=mu
+		self.mu=random.randint(2,5)
  
  
 	def __repr__(self):
@@ -41,7 +43,7 @@ class Point_C(object):
 		return self.distance(p2)
 	
 	def toKMLstr(self):
-		return "{},{},{}".format(self.y,self.x,2000)
+		return "{},{},{}".format(self.x,self.y,2000)
 	
 	def distance(self,p2):
 		p=self.__sub__(p2)
