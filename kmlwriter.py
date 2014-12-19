@@ -42,7 +42,7 @@ def addStations(doc,stations):
 		doc.Document.append(pm1)
 
 
-def writeRow(doc,row):
+def writeIso(doc,line):
 	pass
 
 def writeFile(file,doc):

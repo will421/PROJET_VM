@@ -26,6 +26,17 @@ class Point_C(object):
 			return Point_C(self.x-val.x,self.y-val.y,self.val,self.mu)
 		else:
 			raise TypeError
+
+	def __mul__(self,val):
+		if type(val) is int or type(val) is float :
+			return Point_C(self.x*val,self.y*val,self.val,self.mu)
+		else:
+			raise NotImplementedError
+			
+	def __rmul__(self,val):
+		return self.__mul__(val)
+		
+		
 	def dist(self,p2):
 		return self.distance(p2)
 	
