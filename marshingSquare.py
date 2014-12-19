@@ -2,7 +2,8 @@ from __future__ import division
 import sys
 import coordinateGrille as Grille
 from libPoint import *
-
+import dataparser as Parser
+import kmlwriter as Writer
 
 def processAmbiguous(square,value):
 	valMid = (square[0][0].val+square[0][1].val+square[1][0].val+square[1][1].val)/4
@@ -23,7 +24,7 @@ def processAmbiguous(square,value):
 			
 def processCoeff(square,edge,value):
 
-	print "Edge:{}".format(edge)
+	#print "Edge:{}".format(edge)
 
 	if edge == 0: 
 		p1=square[0][0]
@@ -48,9 +49,9 @@ def processCoeff(square,edge,value):
 def processSquare(square,value):
 	code = 0;
 
-	print "square:" 
-	Grille.pretty_print(square)
-	print "value:{}".format(value)
+	#print "square:" 
+	#Grille.pretty_print(square)
+	#print "value:{}".format(value)
 
 	#import pdb; pdb.set_trace()
 	if square[1][0].val > value:
@@ -62,7 +63,7 @@ def processSquare(square,value):
 	if square[0][0].val > value:
 		code = code | 8
 
-	print "Cas:{}".format(code)
+	#print "Cas:{}".format(code)
 		
 	if code==0 or 15-code==0:
 		return []
@@ -106,25 +107,40 @@ def generate():
 	return grille
 def main(argv):
 	
-	value = 0.2
-	#grille = Grille.generate()
-	grille = generate()
-	nbSquare = len(grille)-1;
+	index = 10
+	nbDiv = 5
+	if len(argv)>0:
+		nbDiv = int(argv[0])
 	
-	res = []
 	
-	for j in range(0,nbSquare):
-		for i in range(0,nbSquare):
-			square = [[0] * 2 for _ in range(2)]
-			square[0][0] = grille[i][j]
-			square[0][1] = grille[i][j+1]
-			square[1][1] = grille[i+1][j+1]
-			square[1][0] = grille[i+1][j]
+	stations = Parser.loadStations("stations.csv")
+	lPoints = Parser.loadPoints("data.csv",index,stations)
 
-			res = res + processSquare(square,value)
-		
-	print res
+	doc = Writer.initDocument()
+	Writer.addStations(doc,stations)
 	
+	grille = Grille.generateGrille(nbDiv,lPoints,index)
+	Writer.addGrille(doc,grille)
+	
+	values = [101504.400,101504.500]
+	for value in values:
+		
+		nbSquare = len(grille)-1;
+		res = []
+	
+		for j in range(0,nbSquare):
+			for i in range(0,nbSquare):
+				square = [[0] * 2 for _ in range(2)]
+				square[0][0] = grille[i][j]
+				square[0][1] = grille[i][j+1]
+				square[1][1] = grille[i+1][j+1]
+				square[1][0] = grille[i+1][j]
+				res = res + processSquare(square,value)
+		print "NbSegment:{}".format(len(res))
+		Writer.addIso(doc,res)
+		
+		
+	Writer.writeFile("out.kml",doc)
 
 
 if __name__ == '__main__':

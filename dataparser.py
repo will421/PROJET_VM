@@ -14,18 +14,27 @@ def loadStations(file):
 		reader = csv.reader(s,delimiter=';')
 		for i,row in enumerate(reader):
 			if i==0: continue
+			if len(row[0])>4: continue
 			stations[float(row[0])] = row
 	return stations
 
 def loadPoints(file,indexValue,stations):
 	points = []
-	with open("data.csv","r") as f:
+	with open(file,"r") as f:
 		reader= csv.reader(f,delimiter=';')
 		for i,row in enumerate(reader):
 			if i ==0: continue
-			x = float(stations[float(row[0])][indiceLongitude])
-			y = float(stations[float(row[0])][indiceLatitude])
-			points.append(Point_C(x,y,float(row[indexValue])))
+			try:
+				x = float(stations[float(row[0])][indiceLongitude])
+				y = float(stations[float(row[0])][indiceLatitude])
+			except KeyError:
+				continue
+			try :
+				value = float(row[indexValue])
+			except ValueError :
+				value = None
+				print "Warning, there is a wrong value in row {} for {}".format(i,indexValue) 
+			points.append(Point_C(x,y,value))
 		
 	return points
 

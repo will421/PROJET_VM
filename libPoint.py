@@ -40,6 +40,9 @@ class Point_C(object):
 	def dist(self,p2):
 		return self.distance(p2)
 	
+	def toKMLstr(self):
+		return "{},{},{}".format(self.y,self.x,2000)
+	
 	def distance(self,p2):
 		p=self.__sub__(p2)
 		return m.sqrt((p.x)**2+(p.y)**2)
